@@ -1226,6 +1226,35 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Items/Chest/f8965b683fff88c13806b14595718f37673588271c5d88b9ff5a2168069d600b_Chest_Full Open_1.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "the-epic-2-by-rafael-krux.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "the-epic-2-by-rafael-krux.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "cartoon-jump-6462.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cartoon-jump-6462.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite4moth3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite4moth3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1365,8 +1394,8 @@
           "name": "DoorParticles",
           "persistentUuid": "fb84a04d-cfeb-4e71-a07c-cd64c5b91f23",
           "width": 64.24380493164062,
-          "x": 2658,
-          "y": 286,
+          "x": 2436,
+          "y": 196,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1410,8 +1439,8 @@
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
-          "x": 2,
-          "y": -256,
+          "x": -32,
+          "y": -298,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -1492,7 +1521,7 @@
           "persistentUuid": "7efbc01f-ebde-481a-8ed2-824eb6c891f2",
           "width": 0,
           "x": 2439,
-          "y": 160,
+          "y": 159,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1552,8 +1581,8 @@
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
           "width": 2864,
-          "x": 0,
-          "y": -379,
+          "x": -28,
+          "y": -412,
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
@@ -1614,8 +1643,8 @@
           "name": "NewTiledSprite",
           "persistentUuid": "7228166b-8506-4063-9feb-a7a2e0b8fe13",
           "width": 2897,
-          "x": -16,
-          "y": -687,
+          "x": -25,
+          "y": -699,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -1769,8 +1798,8 @@
           "name": "NewBitmapTextThree",
           "persistentUuid": "adaada2c-66a3-44f8-ad3c-2bd564170508",
           "width": 0,
-          "x": 1535,
-          "y": 311,
+          "x": 1470,
+          "y": 188,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -1820,6 +1849,58 @@
           "y": 163,
           "zOrder": 38,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64.24380493164062,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "d40eaf7d-9cdd-4809-b3f7-cda72ba7fb70",
+          "width": 64.24380493164062,
+          "x": 2627,
+          "y": 191,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 65,
+          "layer": "",
+          "name": "moth2",
+          "persistentUuid": "ebd30280-bbd4-4094-a987-72f5398189f7",
+          "width": 74,
+          "x": 1730,
+          "y": 328,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 94,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "889c5773-fd6e-4fe3-abc7-f07683c72b05",
+          "width": 98,
+          "x": 1349,
+          "y": 391,
+          "zOrder": 41,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -2662,25 +2743,8 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 0,
-              "Height": 50,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 0,
-              "VerticalEdgeDuration": 1.35,
-              "Left": 1,
-              "Top": 1,
-              "Progress": 1,
-              "OldX": 1,
-              "OldY": 1,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Bottom-left corner",
-              "ToogleClockwise": false
-            },
-            {
-              "name": "ShakeObject_PositionAngle",
-              "type": "ShakeObject::ShakeObject_PositionAngle"
+              "name": "MonsterEnemy",
+              "type": "Enemy::MonsterEnemy"
             }
           ],
           "animations": [
@@ -2776,16 +2840,16 @@
           "particleAngle2": 0,
           "particleAngleRandomness1": 0,
           "particleAngleRandomness2": 0,
-          "particleBlue1": 255,
-          "particleBlue2": 255,
+          "particleBlue1": 0,
+          "particleBlue2": 0,
           "particleGravityX": 5,
           "particleGravityY": -34,
-          "particleGreen1": 94,
-          "particleGreen2": 94,
+          "particleGreen1": 0,
+          "particleGreen2": 0,
           "particleLifeTimeMax": 1,
           "particleLifeTimeMin": 0.5,
-          "particleRed1": 0,
-          "particleRed2": 0,
+          "particleRed1": 255,
+          "particleRed2": 255,
           "particleSize1": 100,
           "particleSize2": 100,
           "particleSizeRandomness1": 0,
@@ -2822,16 +2886,16 @@
           "particleAngle2": 0,
           "particleAngleRandomness1": 0,
           "particleAngleRandomness2": 0,
-          "particleBlue1": 166,
-          "particleBlue2": 166,
+          "particleBlue1": 0,
+          "particleBlue2": 0,
           "particleGravityX": 5,
           "particleGravityY": -34,
-          "particleGreen1": 243,
-          "particleGreen2": 243,
+          "particleGreen1": 235,
+          "particleGreen2": 235,
           "particleLifeTimeMax": 1.5,
           "particleLifeTimeMin": 0.5,
-          "particleRed1": 253,
-          "particleRed2": 253,
+          "particleRed1": 255,
+          "particleRed2": 255,
           "particleSize1": 100,
           "particleSize2": 100,
           "particleSizeRandomness1": 0,
@@ -3824,6 +3888,52 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "moth2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MonsterEnemy",
+              "type": "Enemy::MonsterEnemy"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprite4moth3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4025,7 +4135,7 @@
                       },
                       "parameters": [
                         "",
-                        "jump.mp3",
+                        "cartoon-jump-6462.mp3",
                         "",
                         "50",
                         ""
@@ -4261,7 +4371,7 @@
                       },
                       "parameters": [
                         "",
-                        "Fly",
+                        "moth2",
                         ""
                       ]
                     },
@@ -4271,7 +4381,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "Fly",
+                        "moth2",
                         "",
                         "",
                         ""
@@ -4312,7 +4422,7 @@
                           },
                           "parameters": [
                             "",
-                            "Fly",
+                            "moth2",
                             "RectangleMovement",
                             "ShakeObject_PositionAngle",
                             ""
@@ -4402,7 +4512,7 @@
                         "value": "PosY"
                       },
                       "parameters": [
-                        "Fly",
+                        "moth2",
                         ">",
                         "BackgroundPlants.BoundingBoxBottom()"
                       ]
@@ -4414,7 +4524,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Fly",
+                        "moth2",
                         ""
                       ]
                     }
@@ -5067,9 +5177,9 @@
                       },
                       "parameters": [
                         "",
-                        "crickets.aac",
+                        "the-epic-2-by-rafael-krux.mp3",
                         "yes",
-                        "30",
+                        "20",
                         "1"
                       ]
                     }
