@@ -1347,6 +1347,34 @@
         "name": "running8.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer 1_sprite_024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer 1_sprite_024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer 1_sprite_025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer 1_sprite_025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "the-epic-2-by-rafael-krux4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "the-epic-2-by-rafael-krux4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1481,21 +1509,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64.24380493164062,
-          "layer": "",
-          "name": "DoorParticles",
-          "persistentUuid": "fb84a04d-cfeb-4e71-a07c-cd64c5b91f23",
-          "width": 64.24380493164062,
-          "x": 2436,
-          "y": 196,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 43.66571044921875,
           "layer": "UI",
           "name": "ChestText",
@@ -1541,27 +1554,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 94,
-          "layer": "",
-          "name": "Monster",
-          "persistentUuid": "476f898e-5a8d-48bd-bbb3-1cabe592b8c8",
-          "width": 98,
-          "x": 377,
-          "y": 391,
-          "zOrder": 41,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 540,
           "layer": "EndScreen",
           "name": "EndScreenBackground",
@@ -1600,21 +1592,6 @@
           "x": 0,
           "y": 182,
           "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Portal",
-          "persistentUuid": "7efbc01f-ebde-481a-8ed2-824eb6c891f2",
-          "width": 0,
-          "x": 2439,
-          "y": 159,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1750,249 +1727,11 @@
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "aeccc2b8-0e86-4bef-a712-9ad2ee8f8924",
-          "width": 871,
+          "width": 414,
           "x": 130,
           "y": 464,
           "zOrder": 65,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "c1d2ce8f-0224-4368-b2e7-eb85a4654c84",
-          "width": 0,
-          "x": 583,
-          "y": 326,
-          "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "29d7c9a9-60a2-484e-947c-8bb4b9ac3559",
-          "width": 0,
-          "x": 869,
-          "y": 270,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 122,
-          "layer": "",
-          "name": "NPC",
-          "persistentUuid": "dfe2e17d-776a-4690-909a-76b156f0474e",
-          "width": 88,
-          "x": 990,
-          "y": 163,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 99,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "29a60be7-598c-4326-b7ce-592911e29ec5",
-          "width": 871,
-          "x": 962,
-          "y": 464,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 99,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "5a862c4a-04e4-4b3d-9011-0a857365758c",
-          "width": 958,
-          "x": 1798,
-          "y": 463,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 50,
-          "layer": "",
-          "name": "Chest",
-          "persistentUuid": "344277b1-2234-4a79-9097-0e1510d1eeda",
-          "width": 70,
-          "x": 693,
-          "y": 293,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewBitmapText",
-          "persistentUuid": "f21e4817-eac3-4c14-8139-62323cf42c58",
-          "width": 0,
-          "x": 282,
-          "y": 412,
-          "zOrder": 70,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewBitmapTextTwo",
-          "persistentUuid": "8fafc042-1ec9-4610-b6aa-9c0a4bbe1f78",
-          "width": 0,
-          "x": 564,
-          "y": 197,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewBitmapTextThree",
-          "persistentUuid": "adaada2c-66a3-44f8-ad3c-2bd564170508",
-          "width": 0,
-          "x": 1470,
-          "y": 188,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewBitmapTextFour",
-          "persistentUuid": "ff170d86-c1a3-42d1-a29e-c9d1ffbf6aad",
-          "width": 0,
-          "x": 1993,
-          "y": 311,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 50,
-          "layer": "",
-          "name": "Chest",
-          "persistentUuid": "05d37b3a-f68a-4b9a-b0ef-7f23894d6aca",
-          "width": 70,
-          "x": 2171,
-          "y": 425,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 125,
-          "layer": "",
-          "name": "LeftBoundary",
-          "persistentUuid": "1518a1c3-57a8-43a5-8862-8a9e75998385",
-          "width": 50,
-          "x": 1029,
-          "y": 163,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64.24380493164062,
-          "layer": "",
-          "name": "DoorParticles",
-          "persistentUuid": "d40eaf7d-9cdd-4809-b3f7-cda72ba7fb70",
-          "width": 64.24380493164062,
-          "x": 2627,
-          "y": 191,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 65,
-          "layer": "",
-          "name": "moth2",
-          "persistentUuid": "ebd30280-bbd4-4094-a987-72f5398189f7",
-          "width": 74,
-          "x": 1730,
-          "y": 328,
-          "zOrder": 74,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 94,
-          "layer": "",
-          "name": "Monster",
-          "persistentUuid": "889c5773-fd6e-4fe3-abc7-f07683c72b05",
-          "width": 98,
-          "x": 1349,
-          "y": 391,
-          "zOrder": 41,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -5269,7 +5008,7 @@
                       },
                       "parameters": [
                         "",
-                        "the-epic-2-by-rafael-krux.mp3",
+                        "the-epic-2-by-rafael-krux4.mp3",
                         "yes",
                         "20",
                         "1"
@@ -5623,7 +5362,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5382584178665568,
+        "zoomFactor": 0.5564086693854843,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5663,15 +5402,6 @@
             },
             {
               "name": "EndScreenHeader"
-            },
-            {
-              "name": "EndScreenSubHeader"
-            },
-            {
-              "name": "EndScreenBestText"
-            },
-            {
-              "name": "EndScreenChallengeText"
             },
             {
               "name": "EndScreenRetryText"
@@ -5833,21 +5563,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 48,
-          "layer": "EndScreen",
-          "name": "EndScreenSubHeader",
-          "persistentUuid": "ea6070e8-fa79-455e-ae65-b4ced4c3c1d3",
-          "width": 960,
-          "x": 0,
-          "y": 182,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -5857,36 +5572,6 @@
           "x": 2439,
           "y": 159,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 48,
-          "layer": "EndScreen",
-          "name": "EndScreenChallengeText",
-          "persistentUuid": "35a4ffe7-bc41-49f0-a38b-ec169463f92f",
-          "width": 960,
-          "x": 0,
-          "y": 302,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 48,
-          "layer": "EndScreen",
-          "name": "EndScreenBestText",
-          "persistentUuid": "577f8640-7272-417e-9b19-926a4fab6f5a",
-          "width": 960,
-          "x": 0,
-          "y": 302,
-          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6368,7 +6053,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.06,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -6392,12 +6077,12 @@
               ]
             },
             {
-              "name": "RunningRight",
+              "name": "Run",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.04,
+                  "timeBetweenFrames": 0.06,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -6472,16 +6157,16 @@
               ]
             },
             {
-              "name": "RunningLeft",
+              "name": "Fall",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.04,
+                  "timeBetweenFrames": 0.06,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "runnning5.png",
+                      "image": "Layer 1_sprite_024.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6495,44 +6180,22 @@
                         "y": 0
                       },
                       "customCollisionMask": []
-                    },
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.06,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "running6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "running7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "running8.png",
+                      "image": "Layer 1_sprite_025.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7887,76 +7550,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Congratulations!",
+          "string": "Congratulations!\nClick continue to play the game!",
           "font": "PTSans-Bold.ttf",
           "textAlignment": "center",
           "characterSize": 60,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "EndScreenSubHeader",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "You got 100 points!",
-          "font": "PTSans-Bold.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": true,
-          "name": "EndScreenBestText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "You got the highest number of points!",
-          "font": "PTSans-Bold.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": true,
-          "name": "EndScreenChallengeText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Can you get 950 points?",
-          "font": "PTSans-Bold.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -7980,7 +7577,7 @@
               "type": "ShakeObject::ShakeObject_PositionAngle"
             }
           ],
-          "string": "Retry",
+          "string": "Continue",
           "font": "PTSans-Bold.ttf",
           "textAlignment": "",
           "characterSize": 65,
@@ -8032,7 +7629,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Retry",
+              "string": "Continue",
               "font": "CantoraOne-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 40,
@@ -9413,18 +9010,7 @@
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "EndScreenSubHeader",
-                                "=",
-                                "\"You got \" + VariableString(Score) + \" points!\""
-                              ]
-                            }
-                          ]
+                          "actions": []
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -9440,16 +9026,7 @@
                               ]
                             }
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EndScreenBestText"
-                              ]
-                            }
-                          ]
+                          "actions": []
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -9465,16 +9042,7 @@
                               ]
                             }
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EndScreenChallengeText"
-                              ]
-                            }
-                          ]
+                          "actions": []
                         }
                       ]
                     },
@@ -9553,7 +9121,7 @@
                           },
                           "parameters": [
                             "",
-                            "CurrentSceneName()",
+                            "\"Main level\"",
                             ""
                           ]
                         }
