@@ -1375,6 +1375,96 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "running11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "running11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer 1_sprite_026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer 1_sprite_026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer 1_sprite_027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer 1_sprite_027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-1.png (1)-1.png3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png (1)-1.png3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite3Slime3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite3Slime3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite3Slime4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite3Slime4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SLIME.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SLIME.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1409,7 +1499,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5382584178665567,
+        "zoomFactor": 0.5945659077770962,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1499,8 +1589,8 @@
           "name": "Player",
           "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
           "width": 82,
-          "x": 207,
-          "y": 365,
+          "x": 200,
+          "y": 379,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1727,10 +1817,121 @@
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "aeccc2b8-0e86-4bef-a712-9ad2ee8f8924",
-          "width": 414,
+          "width": 377,
           "x": 130,
           "y": 464,
           "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "344aed37-8cdb-4557-832c-a2b787b88a80",
+          "width": 0,
+          "x": 540,
+          "y": 388,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 99,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "d9140b89-52b0-433d-94f6-b6f727d5e7a5",
+          "width": 288,
+          "x": 898,
+          "y": 234,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 119,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "2b9925b0-0b26-45f7-b8f1-3788e10e11d2",
+          "width": 101,
+          "x": 1070,
+          "y": 127,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 117,
+          "layer": "UI",
+          "name": "NPCCollision",
+          "persistentUuid": "2b44c471-74a1-4605-b32d-e346b7b43158",
+          "width": 56,
+          "x": 1120,
+          "y": 126,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 99,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "115cb962-b6ab-4c59-acda-fdb11879f0e9",
+          "width": 274,
+          "x": 985,
+          "y": 433,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "58e66018-3483-4958-8bea-a385d4a4effb",
+          "width": 48,
+          "x": 1196,
+          "y": 411,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 146,
+          "layer": "",
+          "name": "FirstNPCdialogue",
+          "persistentUuid": "0c2bf0a1-d48b-4262-bf08-77d9b267c161",
+          "width": 223,
+          "x": 1007,
+          "y": 37,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1865,11 +2066,149 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.06,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Sprite1Player3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.06,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "running5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "running9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "running10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "running11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.06,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_026.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.06,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_sprite_027.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3702,6 +4041,26 @@
         },
         {
           "assetStoreId": "",
+          "name": "FirstNPCdialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "I've lost all my treasure. Meet me at the end with my chests and you will be rewarded.",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "NewBitmapTextFour",
           "tags": "",
           "type": "BitmapText::BitmapTextObject",
@@ -3746,6 +4105,136 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Sprite4moth3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NPCTWO",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "New Piskel-1.png (1)-1.png3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+          "name": "FlatHeartBar",
+          "tags": "",
+          "type": "TiledUnitsBar::TiledUnitsBar",
+          "variables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 3
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "UnitWidth": 90,
+            "HideBackground": true,
+            "ShowBackground": false
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 0,
+              "height": 90,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Flat Heart Empty.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 270
+            },
+            "Bar": {
+              "height": 90,
+              "texture": "Flat Heart Empty.png",
+              "width": 90
+            },
+            "FillBar": {
+              "height": 90,
+              "texture": "Flat Heart Filled.png",
+              "width": 90
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Monstersadf",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MonsterEnemy",
+              "type": "Enemy::MonsterEnemy"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SLIME.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4165,6 +4654,17 @@
                         "Player",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "FlatHeartBar",
+                        "Health",
+                        "-",
+                        "1"
+                      ]
                     }
                   ]
                 }
@@ -4305,6 +4805,17 @@
                             "",
                             "Player",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "FlatHeartBar",
+                            "Health",
+                            "-",
+                            "1"
                           ]
                         }
                       ]
@@ -4531,6 +5042,17 @@
                                 "Player",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "FlatHeartBar",
+                                "Health",
+                                "-",
+                                "1"
+                              ]
                             }
                           ]
                         }
@@ -4595,6 +5117,14 @@
                     "EndScreenBackground",
                     "=",
                     "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FirstNPCdialogue"
                   ]
                 }
               ]
@@ -5193,9 +5723,50 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Player NPC Interaction",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "NPCCollision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "FirstNPCdialogue",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -5289,6 +5860,22 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "NPC dialogue 1",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -5362,7 +5949,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5564086693854843,
+        "zoomFactor": 0.7018031144752458,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5443,8 +6030,8 @@
           "name": "Player",
           "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
           "width": 82,
-          "x": 207,
-          "y": 365,
+          "x": 201,
+          "y": 367,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
