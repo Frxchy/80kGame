@@ -2258,6 +2258,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/144372c17a67f81970d7eca4a5314a6d5bef3441e68e4eef621703cd99a16d62_vortex_9.png",
           "name": "vortex_9.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pickedupChest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pickedupChest.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pickedupChest2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pickedupChest2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2292,7 +2310,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7499311725311762,
+        "zoomFactor": 0.6353398826104362,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2332,12 +2350,6 @@
             },
             {
               "name": "EndScreenHeader"
-            },
-            {
-              "name": "EndScreenSubHeader"
-            },
-            {
-              "name": "EndScreenBestText"
             },
             {
               "name": "EndScreenChallengeText"
@@ -2382,8 +2394,8 @@
           "name": "Player",
           "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
           "width": 82,
-          "x": 200,
-          "y": 379,
+          "x": 1446,
+          "y": -86,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2422,13 +2434,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 928,
+          "depth": 0,
+          "height": 1326,
           "layer": "",
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
           "x": -32,
-          "y": -298,
+          "y": -696,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -2469,21 +2482,6 @@
           "customSize": true,
           "height": 48,
           "layer": "EndScreen",
-          "name": "EndScreenSubHeader",
-          "persistentUuid": "ea6070e8-fa79-455e-ae65-b4ced4c3c1d3",
-          "width": 960,
-          "x": 0,
-          "y": 182,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 48,
-          "layer": "EndScreen",
           "name": "EndScreenChallengeText",
           "persistentUuid": "35a4ffe7-bc41-49f0-a38b-ec169463f92f",
           "width": 960,
@@ -2497,28 +2495,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 48,
-          "layer": "EndScreen",
-          "name": "EndScreenBestText",
-          "persistentUuid": "577f8640-7272-417e-9b19-926a4fab6f5a",
-          "width": 960,
-          "x": 0,
-          "y": 302,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 928,
+          "depth": 0,
+          "height": 1282,
           "layer": "",
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2715,
-          "y": -245,
+          "x": 2729,
+          "y": -627,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -2533,8 +2517,8 @@
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
           "width": 2902,
-          "x": -35,
-          "y": -356,
+          "x": -31,
+          "y": -713,
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
@@ -2548,7 +2532,7 @@
           "layer": "",
           "name": "BottomBoundary",
           "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
-          "width": 2784,
+          "width": 2848,
           "x": 0,
           "y": 544,
           "zOrder": 60,
@@ -2590,7 +2574,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1363,
+          "height": 1355,
           "layer": "Background",
           "name": "NewTiledSprite",
           "persistentUuid": "7228166b-8506-4063-9feb-a7a2e0b8fe13",
@@ -2690,8 +2674,8 @@
           "name": "Platform1",
           "persistentUuid": "115cb962-b6ab-4c59-acda-fdb11879f0e9",
           "width": 274,
-          "x": 985,
-          "y": 433,
+          "x": 1002,
+          "y": 432,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -2706,8 +2690,8 @@
           "name": "Chest",
           "persistentUuid": "58e66018-3483-4958-8bea-a385d4a4effb",
           "width": 48,
-          "x": 1196,
-          "y": 411,
+          "x": 1210,
+          "y": 408,
           "zOrder": 75,
           "numberProperties": [],
           "stringProperties": [],
@@ -2744,10 +2728,505 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "fd212539-579f-4e97-a22e-ec92d938504c",
+          "width": 0,
+          "x": 1335,
+          "y": 331,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "efb805ea-6a1a-4099-98f6-4800dd2a4594",
+          "width": 91,
+          "x": 1618,
+          "y": 248,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 54,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "f2cb39c2-c180-4272-a6de-39aa79cf112f",
+          "width": 39,
+          "x": 1665,
+          "y": 204,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "fc4da47f-07d1-4932-8731-409a6375a959",
+          "width": 0,
+          "x": 1652,
+          "y": 425,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "911457e9-f6d2-4b74-bfe6-f1208f596d2b",
+          "width": 0,
+          "x": 1767,
+          "y": 119,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "fb6e05bd-4ac1-4001-a6db-53695dbb7534",
+          "width": 0,
+          "x": 2366,
+          "y": 23,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "9417e918-ca6c-4742-9bf0-e4a07f10c023",
+          "width": 0,
+          "x": 1417,
+          "y": -8,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform4",
+          "persistentUuid": "c16d67f3-a3cc-4c90-b25a-434806c36c9b",
+          "width": 0,
+          "x": 2414,
+          "y": 386,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Portal",
+          "persistentUuid": "d6cba4c6-4b56-43be-b299-4a341aca9d71",
+          "width": 0,
+          "x": 2458,
+          "y": 92,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "29a4039e-df1f-4604-b8ca-6631150ed2ef",
+          "width": 0,
+          "x": 2724,
+          "y": 221,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "1927b2a0-f405-454d-9f28-c1b56d6e9c14",
+          "width": 0,
+          "x": 2652,
+          "y": 161,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "24b04614-f784-4204-a747-0227d9c28588",
+          "width": 0,
+          "x": 2596,
+          "y": 226,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "588623ac-0f06-4388-b60e-72cce33fa2ae",
+          "width": 0,
+          "x": 2598,
+          "y": 315,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "83fc4d8c-374b-4395-91de-6f66ca7322d1",
+          "width": 0,
+          "x": 2723,
+          "y": 313,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "04f26c22-3d35-4925-a546-0db2cf7447a2",
+          "width": 0,
+          "x": 2718,
+          "y": 392,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorParticles",
+          "persistentUuid": "316f996b-a6fb-434b-b60f-1536d386ec08",
+          "width": 0,
+          "x": 2603,
+          "y": 392,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 119,
+          "layer": "",
+          "name": "NPC",
+          "persistentUuid": "956d3bdd-be61-43b9-9cae-b2ea7c422663",
+          "width": 101,
+          "x": 2403,
+          "y": 289,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 125,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "ed23c068-e8d8-4f5a-b656-07afc5d58920",
+          "width": 274,
+          "x": 989,
+          "y": -118,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 101,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "c4dc0ea6-6680-4c64-98bd-f92201f335f2",
+          "width": 270,
+          "x": 610,
+          "y": -230,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 74,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "d93878a0-3a10-432c-88ff-2b846651b92b",
+          "width": 73,
+          "x": 705,
+          "y": -286,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "7a7a03c8-1567-4ee4-9e56-b6a011134d85",
+          "width": 48,
+          "x": 513,
+          "y": -327,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 38,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "526c96d1-70ce-4f87-b180-03c927401830",
+          "width": 57,
+          "x": 507,
+          "y": -298,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "d0105082-fa95-4dd5-b8e3-8ba4ba2df8ea",
+          "width": 0,
+          "x": 115,
+          "y": -116,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform3",
+          "persistentUuid": "1ccdb36f-999b-4d88-880f-1b1e663689c2",
+          "width": 0,
+          "x": 465,
+          "y": 53,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "b94c8005-6652-4481-9b2d-3a33e6979ac8",
+          "width": 0,
+          "x": 2020,
+          "y": 492,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "598f0258-9ea9-4ed3-8afb-8fec573b3dd0",
+          "width": 48,
+          "x": 132,
+          "y": -135,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 38,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "f8981d91-d85d-477b-99a9-5544fc311ce2",
+          "width": 57,
+          "x": 236,
+          "y": 223,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "54cc2604-2dab-423c-a32b-fa12ad98b833",
+          "width": 48,
+          "x": 240,
+          "y": 191,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 74,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "b45c9308-b008-4a8d-b9d4-84827d3d4e2e",
+          "width": 73,
+          "x": 206,
+          "y": -168,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "22fc79a8-2d1b-4d73-a7b1-2e0ba14e97cb",
+          "width": 48,
+          "x": 2544,
+          "y": 1,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "dbc0d363-c7fb-467f-8a89-35c12092bacd",
+          "width": 0,
+          "x": 1963,
+          "y": -82,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 74,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "6848a09e-807c-4691-9f05-04dd0b17df0f",
+          "width": 73,
+          "x": 2025,
+          "y": -136,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -3035,29 +3514,9 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Platform1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
+            },
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
+              "name": "Acquired",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3065,8 +3524,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Platform 1.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "pickedupChest.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3079,26 +3538,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 11,
-                            "y": 14
-                          },
-                          {
-                            "x": 259,
-                            "y": 14
-                          },
-                          {
-                            "x": 246,
-                            "y": 68.25
-                          },
-                          {
-                            "x": 32.5,
-                            "y": 69.75
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -3107,6 +3547,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -3200,6 +3641,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -3268,6 +3710,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -3340,6 +3783,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal",
           "tags": "",
@@ -3415,6 +3859,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -3606,8 +4051,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Ladder",
+          "name": "Platform1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3617,8 +4063,8 @@
             {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Ladder",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -3632,8 +4078,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\ladder.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Platform 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3646,7 +4092,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 14
+                          },
+                          {
+                            "x": 259,
+                            "y": 14
+                          },
+                          {
+                            "x": 246,
+                            "y": 68.25
+                          },
+                          {
+                            "x": 32.5,
+                            "y": 69.75
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -3655,6 +4120,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Monster",
           "tags": "",
@@ -3707,6 +4173,57 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Ladder",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Ladder",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\ladder.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Fly",
           "tags": "",
@@ -3759,6 +4276,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Chest",
           "tags": "",
@@ -4030,6 +4548,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -4079,6 +4598,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NPCCollision",
           "tags": "",
@@ -4128,6 +4648,57 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NPCCollisionTwo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -4177,6 +4748,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -4218,6 +4790,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -4259,6 +4832,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -4308,6 +4882,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Moon",
           "tags": "",
@@ -4385,50 +4960,6 @@
         {
           "assetStoreId": "",
           "bold": false,
-          "italic": false,
-          "name": "EndScreenSubHeader",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "You got 100 points!",
-          "font": "PTSans-Bold.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": true,
-          "name": "EndScreenBestText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "You got the highest number of points!",
-          "font": "PTSans-Bold.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
           "italic": true,
           "name": "EndScreenChallengeText",
           "smoothed": true,
@@ -4438,7 +4969,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Can you get 950 points?",
+          "string": "You have returned all the treasure to the king \nand escaped!",
           "font": "PTSans-Bold.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -4554,6 +5085,7 @@
           },
           "childrenContent": {
             "Border": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -4588,6 +5120,7 @@
               ]
             },
             "Thumb": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -4624,6 +5157,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "JumpButton",
           "tags": "",
@@ -4747,6 +5281,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NPC",
           "tags": "",
@@ -4870,6 +5405,26 @@
         },
         {
           "assetStoreId": "",
+          "name": "SecondNPCdialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Is this working",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "NewBitmapTextFour",
           "tags": "",
           "type": "BitmapText::BitmapTextObject",
@@ -4889,6 +5444,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "moth2",
           "tags": "",
@@ -4935,6 +5491,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NPCTWO",
           "tags": "",
@@ -5019,6 +5576,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Monstersadf",
           "tags": "",
@@ -5065,6 +5623,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "f027c29b3cfb575cf69c03e0c6a6b2a120feaa1d00542bf439f1c31514182237",
           "name": "Vortex",
           "tags": "",
@@ -7283,6 +7842,48 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "pickedupChest",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "pickedupChest2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8309,18 +8910,7 @@
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "EndScreenSubHeader",
-                                "=",
-                                "\"You got \" + VariableString(Score) + \" points!\""
-                              ]
-                            }
-                          ]
+                          "actions": []
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -8336,16 +8926,7 @@
                               ]
                             }
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EndScreenBestText"
-                              ]
-                            }
-                          ]
+                          "actions": []
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -8666,7 +9247,7 @@
                       "parameters": [
                         "ChestText",
                         "=",
-                        "\"Chests: \" + VariableString(Score)"
+                        "\"Chests: \" + VariableString(Score) + \"/8\""
                       ]
                     }
                   ]
@@ -9542,6 +10123,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -9833,6 +10415,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -9901,6 +10484,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -9994,6 +10578,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -10062,6 +10647,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -10134,6 +10720,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal",
           "tags": "",
@@ -10209,6 +10796,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -10400,6 +10988,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Ladder",
           "tags": "",
@@ -10449,6 +11038,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Monster",
           "tags": "",
@@ -10501,6 +11091,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Fly",
           "tags": "",
@@ -10553,6 +11144,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Chest",
           "tags": "",
@@ -10824,6 +11416,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -10873,6 +11466,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NPCCollision",
           "tags": "",
@@ -10922,6 +11516,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -10971,6 +11566,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -11012,6 +11608,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -11053,6 +11650,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -11102,6 +11700,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Moon",
           "tags": "",
@@ -11282,6 +11881,7 @@
           },
           "childrenContent": {
             "Border": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -11316,6 +11916,7 @@
               ]
             },
             "Thumb": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -11352,6 +11953,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "JumpButton",
           "tags": "",
@@ -11475,6 +12077,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NPC",
           "tags": "",
@@ -11597,6 +12200,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "moth2",
           "tags": "",
@@ -13943,6 +14547,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "tags": "",
@@ -15459,6 +16064,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -15527,6 +16133,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -15620,6 +16227,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -15688,6 +16296,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -15760,6 +16369,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal",
           "tags": "",
@@ -15835,6 +16445,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -16026,6 +16637,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Ladder",
           "tags": "",
@@ -16075,6 +16687,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Monster",
           "tags": "",
@@ -16554,6 +17167,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Fly",
           "tags": "",
@@ -17254,6 +17868,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Coin",
           "tags": "",
@@ -17525,6 +18140,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -17574,6 +18190,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -17623,6 +18240,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -17664,6 +18282,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -17705,6 +18324,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -17754,6 +18374,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Moon",
           "tags": "",
@@ -18000,6 +18621,7 @@
           },
           "childrenContent": {
             "Border": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -18034,6 +18656,7 @@
               ]
             },
             "Thumb": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -18070,6 +18693,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "JumpButton",
           "tags": "",
@@ -26954,6 +27578,11 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
                     }
                   ],
                   "parameters": []
@@ -43777,6 +44406,7 @@
           ],
           "objects": [
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Thumb",
               "tags": "",
@@ -43800,6 +44430,7 @@
               ]
             },
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Border",
               "tags": "",
