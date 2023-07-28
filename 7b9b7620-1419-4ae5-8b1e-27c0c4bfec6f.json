@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Tutorial Level",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -2310,7 +2310,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44113598384186875,
+        "zoomFactor": 0.4267459689098183,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2394,7 +2394,7 @@
           "name": "Player",
           "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
           "width": 82,
-          "x": 203,
+          "x": 169,
           "y": 380,
           "zOrder": 6,
           "numberProperties": [],
@@ -2838,13 +2838,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 265,
           "layer": "",
           "name": "Platform4",
           "persistentUuid": "c16d67f3-a3cc-4c90-b25a-434806c36c9b",
-          "width": 0,
-          "x": 2414,
+          "width": 397,
+          "x": 2337,
           "y": 386,
           "zOrder": 84,
           "numberProperties": [],
@@ -2980,7 +2981,7 @@
           "name": "NPC",
           "persistentUuid": "956d3bdd-be61-43b9-9cae-b2ea7c422663",
           "width": 101,
-          "x": 2403,
+          "x": 2398,
           "y": 289,
           "zOrder": 71,
           "numberProperties": [],
@@ -3235,6 +3236,163 @@
           "x": 1472,
           "y": -29,
           "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "63bf1f07-ba3a-44e3-9221-44145444b645",
+          "width": 0,
+          "x": 2362,
+          "y": -237,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 117,
+          "layer": "",
+          "name": "NPCThree",
+          "persistentUuid": "4691e8cb-042e-4c59-b27c-f26e37ed4830",
+          "width": 108,
+          "x": 2516,
+          "y": -341,
+          "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 118,
+          "layer": "UI",
+          "name": "NPCCollisionThree",
+          "persistentUuid": "e0f57ab1-c3d3-49e4-8246-9f92ed271b1e",
+          "width": 75,
+          "x": 2555,
+          "y": -345,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "ThirdNPCdialogue",
+          "persistentUuid": "8841075a-685a-4266-af2f-7e615e642c27",
+          "width": 135,
+          "x": 2439,
+          "y": -436,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "f66561b4-8b99-42ee-8fd1-9c8ee459d82b",
+          "width": 48,
+          "x": 2425,
+          "y": -263,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "42af606c-1569-444f-abd6-46cf617a787e",
+          "width": 0,
+          "x": 1961,
+          "y": -386,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "d97210be-fb04-4823-8009-8a1459e3a3be",
+          "width": 0,
+          "x": 1514,
+          "y": -390,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "3f03dc46-25ed-4211-bb8b-5cce2b183ee2",
+          "width": 48,
+          "x": 1565,
+          "y": -416,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 125,
+          "layer": "UI",
+          "name": "NPCCollisionFour",
+          "persistentUuid": "7a78545a-fcbf-4521-b49f-737595de2468",
+          "width": 62,
+          "x": 2440,
+          "y": 282,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 91,
+          "layer": "",
+          "name": "FourthNPCdialogue",
+          "persistentUuid": "7ebe9e19-caa9-45e4-8cf5-a5512014368d",
+          "width": 167,
+          "x": 2361,
+          "y": 215,
+          "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4716,6 +4874,106 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
+          "name": "NPCCollisionThree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NPCCollisionFour",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\boundary.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
           "type": "Sprite",
@@ -4985,10 +5243,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "You have returned all the treasure to the king \nand escaped!",
+          "string": "You have returned all the treasure to the king \nand escaped!\n\n\n\n\n\n\nCredits:\nCore gamplay/level design/story progression: Lucas Michellys\nSound design: Eric Yu\nArt: Angel Aquino",
           "font": "PTSans-Bold.ttf",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 18,
           "color": {
             "b": 255,
             "g": 255,
@@ -5340,6 +5598,49 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "NPCThree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Sprite2NPC2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprite2NPC2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "name": "NewBitmapText",
           "tags": "",
@@ -5441,6 +5742,46 @@
         },
         {
           "assetStoreId": "",
+          "name": "ThirdNPCdialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Make sure to collect every chest! Here's a free one for your efforts!",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FourthNPCdialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "If you have collected all 8 chests you may exit!",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "NewBitmapTextFour",
           "tags": "",
           "type": "BitmapText::BitmapTextObject",
@@ -5462,18 +5803,13 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "moth2",
+          "name": "NPCTWO",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "MonsterEnemy",
-              "type": "Enemy::MonsterEnemy"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -5485,7 +5821,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Sprite4moth3.png",
+                      "image": "New Piskel-1.png (1)-1.png3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5509,7 +5845,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "NPCTWO",
+          "name": "NPCFOUR",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -8325,210 +8661,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "name": "Fly enemy",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Player collides with Fly",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Enemy::IsFlyDead"
-                      },
-                      "parameters": [
-                        "",
-                        "moth2",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "moth2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "The player kill ennemies when it falls on them."
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsFalling"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Enemy::TriggerFlyDeath"
-                          },
-                          "parameters": [
-                            "",
-                            "moth2",
-                            "RectangleMovement",
-                            "ShakeObject_PositionAngle",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Player::Bounce"
-                          },
-                          "parameters": [
-                            "",
-                            "Player",
-                            "PlatformerObject",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "Score",
-                            "+",
-                            "50"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::IsFalling"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Player::TriggerDeath"
-                          },
-                          "parameters": [
-                            "",
-                            "Player",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "FlatHeartBar",
-                            "Health",
-                            "-",
-                            "1"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Cleanup objects",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "When a Fly falls below background it is deleted. (This is just a good house keeping practice)"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "moth2",
-                        ">",
-                        "BackgroundPlants.BoundingBoxBottom()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "moth2",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 224,
-          "colorG": 16,
-          "colorR": 189,
-          "creationTime": 0,
           "name": "Monster enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9046,7 +9178,7 @@
                           },
                           "parameters": [
                             "",
-                            "CurrentSceneName()",
+                            "\"Tutorial Level\"",
                             ""
                           ]
                         }
@@ -9393,6 +9525,95 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ThirdNPCdialogue"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "NPCCollisionThree",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ThirdNPCdialogue",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "FourthNPCdialogue"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "NPCCollisionFour",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "FourthNPCdialogue",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
